@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background: #001e4d;
+}
+.quizApp{
+    background: #fff;
+    width: 100%;
+    max-width: 540px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 100px auto 20px;
+}
+
+.quizApp .quizhead{
+font-size: 25px;
+color: #001e4d;
+border-bottom: 1px solid #333;
+padding-bottom: 20px;
+font-weight: 600;
+}
+.quizz{
+    padding: 20px 0;
+}
+#question{
+    font-size: 18px;
+    font-weight: 600;
+    color: #001e4d;
+}
+#answer-button .btn1{
+    background: #fff;
+    color:#222;
+    width: 100%;
+    font-weight: 500;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#answer-button .btn1:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+#answer-button .btn1:disabled{
+    cursor: no-drop;
+}
+#nxt-btn{
+    background: #001e4d;
+    color: #fff;
+    width: 150px;
+    font-weight: 500;
+    border:0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+
+}
+.correct{
+    background-color: #9aeabc !important;
+
+}
+.incorrect{
+    background-color: #ff9393 !important;
+    
+}
