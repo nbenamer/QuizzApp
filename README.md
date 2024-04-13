@@ -1,1 +1,4 @@
 # QuizzApp
+Ce dépôt contient une application Quizz réalisée en HTML, CSS et JavaScript. L'application offre une expérience interactive où les utilisateurs peuvent répondre à des questions de quizz. Elle est conçue avec une interface utilisateur simple et des fonctionnalités interactives pour engager les utilisateurs à recommencer. Explorez le code source pour découvrir la structure HTML, les styles CSS et les scripts JavaScript utilisés pour créer cette application de quiz
+
+This repository contains a Quiz application built with HTML, CSS, and JavaScript. The application offers an interactive experience where users can answer quiz questions. It is designed with a simple user interface and interactive features to engage users to replay. Explore the source code to discover the HTML structure, CSS styles, and JavaScript scripts used to create this quiz application.
